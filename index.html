@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science - Women's College Tinsukia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+          <img src="C:\Users\paras\Downloads\WCT logo.jpeg" alt="College Logo">
+          <span>Women's College Tinsukia</span>
+        </div>
+
+<!-- Hamburger Menu Button-->
+     <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="dropdown">
+                   <a href="#">Courses &#9662; </a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#courses"> BCA & PGDCA</a></li>
+                       <li><a href="addon-courses.html">Add-On Courses</a></li>
+                     </ul>
+                  </li>
+                <li><a href="#faculty">Faculty</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+         <div class="hero-content"
+          <h1><span class="typing"></span></h1>
+          <p>Empowering Women in Technology & Innovation</p>
+          <a href="#about" class="btn">Explore More</a>
+         </div>
+    </section>
+
+    <!-- About Section -->
+    
+    <section id="about" class="about">
+    <div class="container">
+      <div class="about-content">
+       <div class="about-text">
+        <h2>About the Department</h2>
+        <p>Established in 2003, the Department of Computer Science offers Bachelor of Computer Application (BCA) and Postgraduate Diploma in Computer Application (PGDCA) as its main programs. In addition, it provides IT-related courses for BA, B.Com, and higher secondary students, along with short-term Career Oriented Courses (COC).
+           The curriculum blends theory and application, focusing on emerging IT fields and problem-solving skills to prepare students for real-world challenges.</p>
+        <a href="about.html" class="btn">Learn More</a>
+       </div>
+      <div class="about-image">
+         <img src="C:\Users\paras\Downloads\WhatsApp Image 2025-06-02 at 7.20.29 PM.jpeg" alt="Department">
+       </div>
+      </div>
+    </div>
+</section>
+
+<!-- Course Section -->
+
+<section id="courses" class="courses-section">
+    <div class="container">
+        <h2>Courses We Offer</h2>
+        <div class="course-list">
+            <div class="course">
+                <h3>Bachelor of Computer Application (BCA)</h3>
+                <p>A three-year undergraduate program that provides a strong foundation in programming, web development, networking, and database management.</p>
+             <a href="bca-syllabus.html" class="btn" target="_blank"> View Syllabus</a>
+            </div>
+            <div class="course">
+                <h3>Postgraduate Diploma in Computer Application (PGDCA)</h3>
+                <p>A one-year postgraduate program designed to enhance practical knowledge in computer applications, software development, and emerging IT trends.</p>
+              <a href="pgdca-syllabus.html" class="btn" target="_blank"> View Syllabus</a>
+            </div>
+        </div>
+      <a href="addon-courses.html" class="btn add-on-btn">Explore Add-On Courses</a>
+    </div>
+</section>
+
+
+    <!-- Faculty Section -->
+
+<section id="faculty" class="section">
+  <h2>Our Faculties</h2>
+  <div class="faculty-list">
+
+    <!-- Reetu Ganjoo -->
+    <div class="faculty-card">
+      <img src="C:\Users\paras\OneDrive\Desktop\BCA project\Reetu ma'am profile.jpeg" alt="Reetu Ganjoo">
+      <h3>Mrs. Reetu Ganjoo</h3>
+      <p><strong>Designation:</strong> Assistant Professor, HOD</p>
+      <p><strong>Email:</strong> <a href="mailto:rgeetu@gmail.com">rgeetu@gmail.com</a></p>
+      <p><strong>Mobile:</strong> 8472910854</p>
+      <p><strong>Experience:</strong> 12 years</p>
+      <p><strong>Education:</strong> MCA, PGDBI</p>
+      <details>
+        <summary>▼ More Info</summary>
+        <ul>
+          <li>Joined: 01/11/2012</li>
+          <li>3 workshops, 1 FDP</li>
+          <li>External Examiner (BA & HS)</li>
+        </ul>
+      </details>
+    </div>
+
+    <!-- Tapash Aich -->
+    <div class="faculty-card">
+      <img src="C:\Users\paras\OneDrive\Desktop\BCA project\Tapas sir profile.jpeg" alt="Tapash Aich">
+      <h3>Mr. Tapash Aich</h3>
+      <p><strong>Designation:</strong> Assistant Professor</p>
+      <p><strong>Email:</strong> <a href="mailto:aichtaapas@gmail.com">aichtaapas@gmail.com</a></p>
+      <p><strong>Mobile:</strong> 9435085520</p>
+      <p><strong>Experience:</strong> Since 2014</p>
+      <p><strong>Education:</strong> MCA, LLB</p>
+      <details>
+        <summary>▼ More Info</summary>
+        <ul>
+          <li>Specializes in AI, C++, ML</li>
+          <li>MASTER Award (IIT Bombay)</li>
+          <li>External Examiner (BA, HS)</li>
+          <li>Developed electronic voting DB</li>
+        </ul>
+      </details>
+    </div>
+
+  </div>
+</section>
+
+     <!-- Events Section -->
+   
+<section id="events" class="section">
+  <h2>Announcements & Events</h2>
+  <div class="event-placeholder">
+    <p>There are no announcements or upcoming events at the moment.</p>
+    <p>Please check back soon or follow our notice board for the latest updates.</p>
+  </div>
+<div class="announcement-list">
+  <h3>Latest Announcements</h3>
+  <ul>
+    <li>📌 Add-On Courses registration open until 15th June 2025.</li>
+    <li>📝 PGDCA Semester 2 internal exam dates released.</li>
+    <li>🎓 Final year BCA project presentation: 23rd June 2025.</li>
+  </ul>
+</div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Email: wcttsk@gmail.com</p>
+        <p>Phone: 0374-2338826 (O)</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Women's College Tinsukia - Computer Science Department. All Rights Reserved.</p>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="script.js"></script>
+</body>
+</html>
